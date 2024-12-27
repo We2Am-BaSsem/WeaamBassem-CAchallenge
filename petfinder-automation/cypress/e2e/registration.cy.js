@@ -19,7 +19,7 @@ describe("Petfinder Registration Tests", () => {
     cy.visit("/", { failOnStatusCode: false });
   });
 
-  it.only("should successfully register a new user", () => {
+  it("should successfully register a new user", () => {
     // Step 1: Click on the Sign In button to navigate to the login page
     new DashboardPage()
       .clickSignInButton()
