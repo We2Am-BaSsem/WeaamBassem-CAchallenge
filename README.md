@@ -14,9 +14,6 @@
     Performance:
         Measure page load times.
         Test the app under heavy traffic.
-    Security:
-        Check for proper encryption during login.
-        Validate against SQL injection or XSS vulnerabilities.
 
 # Prioritization:
 
